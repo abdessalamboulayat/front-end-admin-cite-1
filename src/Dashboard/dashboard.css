@@ -1,0 +1,55 @@
+.title{
+    display: flex;
+    padding: 20px;
+    font-weight: 100;
+    color: grey;
+}
+.evenements{
+    background-color: rgb(76, 174, 231);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    line-height: 40px;
+    background-color: #034e9e;
+    padding: 20px 30px;
+    margin: 8px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* width: 290px; */
+}
+.cardElement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardElement1{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    flex-direction: column;
+    line-height: 40px;
+}
+.cardElement1 h3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight:  400;
+}
+.cardElement1 h6{
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 700;
+}
+.icon{
+    border-radius: 50%;
+    color: #044386;
+    font-size: 40px;
+    padding: 10px;
+    background-color: white;
+}
+.card a{
+    color: rgb(240, 240, 240);
+    text-align: center;
+}

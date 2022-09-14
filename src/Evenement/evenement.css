@@ -1,0 +1,64 @@
+.form{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 5px #A5ADA8;
+    z-index: 1;
+    position: static;
+}
+.event{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: 100;
+    color: grey;
+}
+.iconAdd{
+    color: rgb(13, 75, 207);
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonModifier{
+    color: white;
+    padding: 5px;
+    border: 1px solid rgb(3, 109, 151);
+    border-radius: 5px;
+    margin: 2px;
+    background-color: rgb(3, 109, 151);
+    cursor: pointer;
+}
+.buttonSupprimer{
+    color: white;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid rgb(151, 3, 3);
+    border-radius: 5px;
+    background-color: rgb(151, 3, 3);
+    cursor: pointer;
+}
+.form_container{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 10vh;
+    background-color: rgba(0,0,0,0.1);
+    z-index: 1;
+}
+
+/* .form{
+    z-index: 10;
+    position: relative;
+    bottom: 400px;
+} */
+/* .evenementCard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #A5ADA8;
+} */

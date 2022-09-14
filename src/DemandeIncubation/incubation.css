@@ -1,0 +1,9 @@
+.incubation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-weight: 100;
+    color: grey;
+}
